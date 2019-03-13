@@ -319,7 +319,7 @@ nav a{
     margin: 10px auto;
 }
 @media ( max-width: 500px ) {
-    /* Mobile */c
+    /* Mobile */
     .contactContainer {
         width: 90%;
         margin: 10px auto;
