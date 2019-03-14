@@ -114,7 +114,6 @@ header {
     /* Mobile */
     header {
         flex-direction: column;
-        margin-bottom: 30px;
         border-bottom: 1px solid lightgrey;
     }
 }
@@ -164,7 +163,6 @@ nav a{
 @media( max-width: 500px ) {
     /* Mobile */
     nav a{
-        height: 50px;
         justify-content: center;
         color: lightgrey;
         text-decoration: none;
@@ -185,8 +183,8 @@ nav a{
 
 .introContainer{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .introContainer .headerimg {
@@ -207,19 +205,13 @@ nav a{
 	align-items: center;
 	font-family: 'Bangers', cursive;
     font-size: 64px;
-    margin-top: 20px;
-}
-@media( max-width: 800px ) {
-    /* Tablet */
-    .sloganContainer {
-        margin: 10px;
-    }
+    margin-top: 25px;
 }
 
 .sloganContainer a{
 	text-decoration: none;
     font-size: 24px;
-    width: 200px;
+    width: 150px;
     margin: 20px;
     padding: 5px;
     text-align: center;
